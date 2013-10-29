@@ -73,21 +73,17 @@ public class Test {
   }
 
   public static void testLz2() {
-    /*
     System.out.printf("testLz2 ");
     for (int[] line: Data.testsLz)
       System.out.printf("%d ", LZ77.LZ77Longueur(line, Data.tailleFenetre));
     System.out.printf("done\n");
-    */
   }
 
   public static void testLz3() {
-    /*
     System.out.printf("testLz3 ");
     for (int[] line: Data.testsLz)
       LZ77.afficheEncode(LZ77.LZ77(line, Data.tailleFenetre));
     System.out.printf("done\n");
-    */
   }
 
   public static void testLz4() {
