@@ -10,6 +10,13 @@ public class Test {
     testLz3();
     testLz4();
     testLz5();
+    /*
+    int[] t = { 1, 0, 1, 0, 1, 1, 1, 0,0,0,0,0,0,0,0,0,1,2 };
+    LZ77.afficheDecode(t);
+    System.out.println(LZ77.LZ77Longueur(t, 100));
+    LZ77.afficheEncode(LZ77.LZ77(t, 100));
+    LZ77.afficheDecode(LZ77.LZ77Inverse(LZ77.LZ77(t,100)));
+    */
   }
 
   public static void testRle1() {
@@ -87,21 +94,17 @@ public class Test {
   }
 
   public static void testLz4() {
-    /*
     System.out.printf("testLz4 ");
     for (Element[] line: Data.testsLzInverse)
       System.out.printf("%d ", LZ77.LZ77InverseLongueur(line));
     System.out.printf("done\n");
-    */
   }
 
   public static void testLz5() {
-    /*
     System.out.printf("testLz5 ");
     for (Element[] line: Data.testsLzInverse)
       LZ77.afficheDecode(LZ77.LZ77Inverse(line));
     System.out.printf("done\n");
-    */
   }
 
 }
