@@ -18,7 +18,7 @@ public class Test {
     c.ajouteFils(a1);
     d.ajouteFils(a2);
     e.ajouteFils(a3);
-    // System.out.println(b);
+    //System.out.println(b);
 
     Dictionnaire dico = new Dictionnaire();
     dico.racine.ajouteFils(b);
